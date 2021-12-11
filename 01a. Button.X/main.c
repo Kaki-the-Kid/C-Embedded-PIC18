@@ -7,5 +7,11 @@ void main(void)
     while (1)
     {
         // Add your application code
+        int x = knap_GetValue();       
+        
+        if(knap_GetValue == 1)
+        {
+            // ... Do something
+        }
     }
 }
