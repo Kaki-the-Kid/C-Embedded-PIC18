@@ -22,7 +22,13 @@
 #include "mcc_generated_files/mcc.h"
 
 // Include our files
-#include "spi.h"
+#include "pic18_spi.h"
+#include "lcd.h"
+
+
+// Declarations
+void system_init(void);
+
 
 void main(void)
 {
@@ -32,8 +38,17 @@ void main(void)
     INTERRUPT_GlobalInterruptEnable();
     INTERRUPT_PeripheralInterruptEnable();
 
+    system_init();
+    
     while (1)
     {
         // Add your application code
     }
 }
+
+void system_init(void){
+    lcd_init(); // This will initialize the lcd 
+    SPI_Initialize_Master();
+}
+
+
