@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Display.X
+PROJECTNAME=DisplayPeter.X
 
 # Active Configuration
 DEFAULTCONF=default
