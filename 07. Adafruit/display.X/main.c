@@ -160,9 +160,9 @@ void main(void)
     // Disable the Peripheral Interrupts
     //INTERRUPT_PeripheralInterruptDisable();
 
-    TMR2_Initialize();
-    TMR4_Initialize();
-    TMR6_Initialize();
+    // TMR2_Initialize();
+    // TMR4_Initialize();
+    // TMR6_Initialize();
     
     EUSART1_Initialize();    
     i2c_init(); // Initialize i2c
@@ -175,9 +175,9 @@ void main(void)
     
     __delay_ms(3000); // Delay 3 seconds
     
-    TMR2_SetInterruptHandler(adafruit);
-    TMR4_SetInterruptHandler(dataLogRead);
-    TMR6_SetInterruptHandler(dataLogWrite);
+    // TMR2_SetInterruptHandler(adafruit);
+    // TMR4_SetInterruptHandler(dataLogRead);
+    // TMR6_SetInterruptHandler(dataLogWrite);
     
 //    i2c_WriteSerial(display_Addr, helloWorldString, 12);
 
