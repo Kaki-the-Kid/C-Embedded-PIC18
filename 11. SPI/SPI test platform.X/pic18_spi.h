@@ -9,8 +9,8 @@
 #define	SPI_H
 
 
-
-
+void SPI_Initialize_Master();
+void SPI_Write(char *);
 
 
 #endif	/* SPI_H */
