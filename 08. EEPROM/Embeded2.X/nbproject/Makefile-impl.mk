@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=09. Data Logger.X
+PROJECTNAME=Embeded2.X
 
 # Active Configuration
 DEFAULTCONF=default
