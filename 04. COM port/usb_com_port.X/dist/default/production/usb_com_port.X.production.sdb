@@ -3,34 +3,36 @@
 [d edition pro ]
 [d chip 18F26K22 ]
 [d frameptr 4065 ]
-"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fleq.c
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\float.c
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftadd.c
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftdiv.c
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftmul.c
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftsub.c
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul32.c
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul64.c
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"49 C:\Users\krs\MPLABXProjects\usb_com_port.X\main.c
+"49 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"88 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/eusart1.c
+"88 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/eusart1.c
 [v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"137
+[v _EUSART1_is_rx_ready EUSART1_is_rx_ready `(a  1 e 1 0 ]
 "151
 [v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
 "173
@@ -57,39 +59,39 @@
 [v _EUSART1_SetTxInterruptHandler EUSART1_SetTxInterruptHandler `(v  1 e 1 0 ]
 "289
 [v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
-"52 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/interrupt_manager.c
+"52 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "58
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
-"50 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/mcc.c
+"50 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "59
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-"55 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/pin_manager.c
+"55 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"52 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f26k22.h
+"53 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f26k22.h
 [v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
-"97
+"98
 [v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
-"147
+"148
 [v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
-"2613
+"2614
 [v _WPUB WPUB `VEuc  1 e 1 @3937 ]
-"7244
+"7245
 [v _LATA LATA `VEuc  1 e 1 @3977 ]
-"7356
+"7357
 [v _LATB LATB `VEuc  1 e 1 @3978 ]
-"7468
+"7469
 [v _LATC LATC `VEuc  1 e 1 @3979 ]
-"7580
+"7581
 [v _TRISA TRISA `VEuc  1 e 1 @3986 ]
-"7802
+"7803
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
-"8024
+"8025
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
-"8267
+"8268
 [v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
-[s S107 . 1 `uc 1 TMR1IE 1 0 :1:0 
+[s S37 . 1 `uc 1 TMR1IE 1 0 :1:0 
 `uc 1 TMR2IE 1 0 :1:1 
 `uc 1 CCP1IE 1 0 :1:2 
 `uc 1 SSP1IE 1 0 :1:3 
@@ -97,15 +99,15 @@
 `uc 1 RC1IE 1 0 :1:5 
 `uc 1 ADIE 1 0 :1:6 
 ]
-"8639
-[s S115 . 1 `uc 1 . 1 0 :3:0 
+"8640
+[s S45 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 SSPIE 1 0 :1:3 
 `uc 1 TXIE 1 0 :1:4 
 `uc 1 RCIE 1 0 :1:5 
 ]
-[u S120 . 1 `S107 1 . 1 0 `S115 1 . 1 0 ]
-[v _PIE1bits PIE1bits `VES120  1 e 1 @3997 ]
-[s S519 . 1 `uc 1 TMR1IF 1 0 :1:0 
+[u S50 . 1 `S37 1 . 1 0 `S45 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES50  1 e 1 @3997 ]
+[s S471 . 1 `uc 1 TMR1IF 1 0 :1:0 
 `uc 1 TMR2IF 1 0 :1:1 
 `uc 1 CCP1IF 1 0 :1:2 
 `uc 1 SSP1IF 1 0 :1:3 
@@ -113,17 +115,17 @@
 `uc 1 RC1IF 1 0 :1:5 
 `uc 1 ADIF 1 0 :1:6 
 ]
-"8716
-[s S527 . 1 `uc 1 . 1 0 :3:0 
+"8717
+[s S479 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 SSPIF 1 0 :1:3 
 `uc 1 TXIF 1 0 :1:4 
 `uc 1 RCIF 1 0 :1:5 
 ]
-[u S532 . 1 `S519 1 . 1 0 `S527 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES532  1 e 1 @3998 ]
-"9582
+[u S484 . 1 `S471 1 . 1 0 `S479 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES484  1 e 1 @3998 ]
+"9583
 [v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
-[s S242 . 1 `uc 1 RX9D 1 0 :1:0 
+[s S172 . 1 `uc 1 RX9D 1 0 :1:0 
 `uc 1 OERR 1 0 :1:1 
 `uc 1 FERR 1 0 :1:2 
 `uc 1 ADDEN 1 0 :1:3 
@@ -132,11 +134,11 @@
 `uc 1 RX9 1 0 :1:6 
 `uc 1 SPEN 1 0 :1:7 
 ]
-"9635
-[s S251 . 1 `uc 1 . 1 0 :3:0 
+"9636
+[s S181 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 ADEN 1 0 :1:3 
 ]
-[s S254 . 1 `uc 1 RX9D1 1 0 :1:0 
+[s S184 . 1 `uc 1 RX9D1 1 0 :1:0 
 `uc 1 OERR1 1 0 :1:1 
 `uc 1 FERR1 1 0 :1:2 
 `uc 1 ADDEN1 1 0 :1:3 
@@ -145,21 +147,21 @@
 `uc 1 RX91 1 0 :1:6 
 `uc 1 SPEN1 1 0 :1:7 
 ]
-[s S263 . 1 `uc 1 RCD8 1 0 :1:0 
+[s S193 . 1 `uc 1 RCD8 1 0 :1:0 
 `uc 1 . 1 0 :5:1 
 `uc 1 RC8_9 1 0 :1:6 
 ]
-[s S267 . 1 `uc 1 . 1 0 :6:0 
+[s S197 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC9 1 0 :1:6 
 ]
-[s S270 . 1 `uc 1 . 1 0 :5:0 
+[s S200 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 SRENA 1 0 :1:5 
 ]
-[u S273 . 1 `S242 1 . 1 0 `S251 1 . 1 0 `S254 1 . 1 0 `S263 1 . 1 0 `S267 1 . 1 0 `S270 1 . 1 0 ]
-[v _RCSTA1bits RCSTA1bits `VES273  1 e 1 @4011 ]
-"10038
+[u S203 . 1 `S172 1 . 1 0 `S181 1 . 1 0 `S184 1 . 1 0 `S193 1 . 1 0 `S197 1 . 1 0 `S200 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES203  1 e 1 @4011 ]
+"10039
 [v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
-[s S192 . 1 `uc 1 TX9D 1 0 :1:0 
+[s S122 . 1 `uc 1 TX9D 1 0 :1:0 
 `uc 1 TRMT 1 0 :1:1 
 `uc 1 BRGH 1 0 :1:2 
 `uc 1 SENDB 1 0 :1:3 
@@ -168,8 +170,8 @@
 `uc 1 TX9 1 0 :1:6 
 `uc 1 CSRC 1 0 :1:7 
 ]
-"10079
-[s S201 . 1 `uc 1 TX9D1 1 0 :1:0 
+"10080
+[s S131 . 1 `uc 1 TX9D1 1 0 :1:0 
 `uc 1 TRMT1 1 0 :1:1 
 `uc 1 BRGH1 1 0 :1:2 
 `uc 1 SENDB1 1 0 :1:3 
@@ -178,38 +180,38 @@
 `uc 1 TX91 1 0 :1:6 
 `uc 1 CSRC1 1 0 :1:7 
 ]
-[s S210 . 1 `uc 1 TXD8 1 0 :1:0 
+[s S140 . 1 `uc 1 TXD8 1 0 :1:0 
 `uc 1 . 1 0 :5:1 
 `uc 1 TX8_9 1 0 :1:6 
 ]
-[u S214 . 1 `S192 1 . 1 0 `S201 1 . 1 0 `S210 1 . 1 0 ]
-[v _TXSTA1bits TXSTA1bits `VES214  1 e 1 @4012 ]
-"10413
+[u S144 . 1 `S122 1 . 1 0 `S131 1 . 1 0 `S140 1 . 1 0 ]
+[v _TXSTA1bits TXSTA1bits `VES144  1 e 1 @4012 ]
+"10414
 [v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
-"10491
+"10492
 [v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
-"10569
+"10570
 [v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
-"10647
+"10648
 [v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @4016 ]
-"11611
+"11612
 [v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @4024 ]
-[s S408 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+[s S338 . 1 `uc 1 NOT_BOR 1 0 :1:0 
 ]
-"15074
-[s S410 . 1 `uc 1 . 1 0 :1:0 
+"15075
+[s S340 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 NOT_POR 1 0 :1:1 
 ]
-[s S413 . 1 `uc 1 . 1 0 :2:0 
+[s S343 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_PD 1 0 :1:2 
 ]
-[s S416 . 1 `uc 1 . 1 0 :3:0 
+[s S346 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_TO 1 0 :1:3 
 ]
-[s S419 . 1 `uc 1 . 1 0 :4:0 
+[s S349 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 NOT_RI 1 0 :1:4 
 ]
-[s S422 . 1 `uc 1 nBOR 1 0 :1:0 
+[s S352 . 1 `uc 1 nBOR 1 0 :1:0 
 `uc 1 nPOR 1 0 :1:1 
 `uc 1 nPD 1 0 :1:2 
 `uc 1 nTO 1 0 :1:3 
@@ -218,23 +220,23 @@
 `uc 1 SBOREN 1 0 :1:6 
 `uc 1 IPEN 1 0 :1:7 
 ]
-[s S431 . 1 `uc 1 BOR 1 0 :1:0 
+[s S361 . 1 `uc 1 BOR 1 0 :1:0 
 `uc 1 POR 1 0 :1:1 
 `uc 1 PD 1 0 :1:2 
 `uc 1 TO 1 0 :1:3 
 `uc 1 RI 1 0 :1:4 
 ]
-[u S437 . 1 `S408 1 . 1 0 `S410 1 . 1 0 `S413 1 . 1 0 `S416 1 . 1 0 `S419 1 . 1 0 `S422 1 . 1 0 `S431 1 . 1 0 ]
-[v _RCONbits RCONbits `VES437  1 e 1 @4048 ]
-"15192
+[u S367 . 1 `S338 1 . 1 0 `S340 1 . 1 0 `S343 1 . 1 0 `S346 1 . 1 0 `S349 1 . 1 0 `S352 1 . 1 0 `S361 1 . 1 0 ]
+[v _RCONbits RCONbits `VES367  1 e 1 @4048 ]
+"15193
 [v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
-"15249
+"15250
 [v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
-[s S603 . 1 `uc 1 . 1 0 :7:0 
+[s S564 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 NOT_RBPU 1 0 :1:7 
 ]
-"16084
-[s S606 . 1 `uc 1 RBIP 1 0 :1:0 
+"16085
+[s S567 . 1 `uc 1 RBIP 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 TMR0IP 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -243,12 +245,12 @@
 `uc 1 INTEDG0 1 0 :1:6 
 `uc 1 nRBPU 1 0 :1:7 
 ]
-[s S615 . 1 `uc 1 . 1 0 :7:0 
+[s S576 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RBPU 1 0 :1:7 
 ]
-[u S618 . 1 `S603 1 . 1 0 `S606 1 . 1 0 `S615 1 . 1 0 ]
-[v _INTCON2bits INTCON2bits `VES618  1 e 1 @4081 ]
-[s S28 . 1 `uc 1 RBIF 1 0 :1:0 
+[u S579 . 1 `S564 1 . 1 0 `S567 1 . 1 0 `S576 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES579  1 e 1 @4081 ]
+[s S405 . 1 `uc 1 RBIF 1 0 :1:0 
 `uc 1 INT0IF 1 0 :1:1 
 `uc 1 TMR0IF 1 0 :1:2 
 `uc 1 RBIE 1 0 :1:3 
@@ -257,8 +259,8 @@
 `uc 1 PEIE_GIEL 1 0 :1:6 
 `uc 1 GIE_GIEH 1 0 :1:7 
 ]
-"16161
-[s S37 . 1 `uc 1 . 1 0 :1:0 
+"16162
+[s S414 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 INT0F 1 0 :1:1 
 `uc 1 T0IF 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -267,15 +269,15 @@
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
-[s S46 . 1 `uc 1 . 1 0 :6:0 
+[s S423 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 GIEL 1 0 :1:6 
 `uc 1 GIEH 1 0 :1:7 
 ]
-[u S50 . 1 `S28 1 . 1 0 `S37 1 . 1 0 `S46 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES50  1 e 1 @4082 ]
-"18423
+[u S427 . 1 `S405 1 . 1 0 `S414 1 . 1 0 `S423 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES427  1 e 1 @4082 ]
+"18424
 [v _PLLRDY PLLRDY `VEb  1 e 0 @32407 ]
-"62 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/eusart1.c
+"62 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/eusart1.c
 [v _eusart1TxHead eusart1TxHead `VEuc  1 e 1 0 ]
 "63
 [v _eusart1TxTail eusart1TxTail `VEuc  1 e 1 0 ]
@@ -289,18 +291,18 @@
 [v _eusart1RxTail eusart1RxTail `VEuc  1 e 1 0 ]
 "69
 [v _eusart1RxBuffer eusart1RxBuffer `VE[64]uc  1 e 64 0 ]
-[s S94 . 1 `uc 1 perr 1 0 :1:0 
+[s S24 . 1 `uc 1 perr 1 0 :1:0 
 `uc 1 ferr 1 0 :1:1 
 `uc 1 oerr 1 0 :1:2 
 `uc 1 reserved 1 0 :5:3 
 ]
 "70
-[u S99 . 1 `S94 1 . 1 0 `uc 1 status 1 0 ]
-[v _eusart1RxStatusBuffer eusart1RxStatusBuffer `VE[64]S99  1 e 64 0 ]
+[u S29 . 1 `S24 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxStatusBuffer eusart1RxStatusBuffer `VE[64]S29  1 e 64 0 ]
 "71
 [v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
 "72
-[v _eusart1RxLastError eusart1RxLastError `VES99  1 e 1 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES29  1 e 1 0 ]
 "77
 [v _EUSART1_TxDefaultInterruptHandler EUSART1_TxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
 "78
@@ -311,32 +313,32 @@
 [v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
 "82
 [v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
-"49 C:\Users\krs\MPLABXProjects\usb_com_port.X\main.c
+"49 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"77
+"79
 } 0
-"50 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/mcc.c
+"50 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "57
 } 0
-"55 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/pin_manager.c
+"55 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "91
 } 0
-"59 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/mcc.c
+"59 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "71
 } 0
-"52 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/interrupt_manager.c
+"52 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 {
 "56
 } 0
-"88 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/eusart1.c
+"88 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/eusart1.c
 [v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
 {
 "130
@@ -371,12 +373,24 @@
 [v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 4 ]
 "283
 } 0
-"58 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/interrupt_manager.c
+"137
+[v _EUSART1_is_rx_ready EUSART1_is_rx_ready `(a  1 e 1 0 ]
+{
+"140
+} 0
+"151
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+{
+"153
+[v EUSART1_Read@readValue readValue `uc  1 a 1 4 ]
+"171
+} 0
+"58 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
 {
 "80
 } 0
-"206 C:\Users\krs\MPLABXProjects\usb_com_port.X\mcc_generated_files/eusart1.c
+"206 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\04. COM port\usb_com_port.X\mcc_generated_files/eusart1.c
 [v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
 {
 "223
