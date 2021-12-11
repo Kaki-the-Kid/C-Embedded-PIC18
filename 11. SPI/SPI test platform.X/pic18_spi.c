@@ -1,7 +1,7 @@
 #include "pic18_spi.h"
 
 
-void SPI_Initialize_Master()
+void spi_init_master()
 {
     TRISC5 = 0; // Set as output
     SSPSTAT = 0b11000000; //pg 74/234
@@ -10,6 +10,6 @@ void SPI_Initialize_Master()
 }
 
 
-void SPI_Write(char *data)
+void spi_write(char *data)
 {
 }
