@@ -1,5 +1,5 @@
 __S0 10000 0 ABS 0
-__S1 0 0 ABS 0
+__S1 3 0 ABS 0
 __S2 0 0 ABS 0
 __S4 0 0 ABS 0
 __S5 0 0 ABS 0
@@ -9,8 +9,8 @@ _LATA F89 0 ABS 0
 _LATB F8A 0 ABS 0
 _LATC F8B 0 ABS 0
 _WPUB F61 0 ABS 0
-__end_of_PIN_MANAGER_Initialize 10000 0 CODE 0
-_main FFB0 0 CODE 0
+__end_of_PIN_MANAGER_Initialize FFAE 0 CODE 0
+_main FFAE 0 CODE 0
 ___sp 0 0 STACK 2
 start 0 0 CODE 0
 _TRISA F92 0 ABS 0
@@ -39,6 +39,7 @@ __Hnvrram 0 0 COMRAM 1
 __Lnvrram 0 0 COMRAM 1
 __Heeprom_data 0 0 EEDATA 0
 __Leeprom_data 0 0 EEDATA 0
+_LATAbits F89 0 ABS 0
 __Hintsave_regs 0 0 BIGRAM 1
 __Lintsave_regs 0 0 BIGRAM 1
 _ANSELA F38 0 ABS 0
@@ -65,11 +66,13 @@ __Lfardata 0 0 FARRAM 0
 _OSCCON FD3 0 ABS 0
 __Habs1 0 0 ABS 0
 __Labs1 0 0 ABS 0
+isa$xinst 0 0 ABS 0
 _PLLRDY 7E97 0 ABS 0
 __HnvFARRAM 0 0 FARRAM 0
 __LnvFARRAM 0 0 FARRAM 0
 __Hdata 0 0 ABS 0
 __Ldata 0 0 ABS 0
+isa$std 1 0 ABS 0
 stackhi F37 0 ABS 0
 __Htemp 0 0 COMRAM 1
 __Ltemp 0 0 COMRAM 1
@@ -81,13 +84,14 @@ __Linit 0 0 CODE 0
 __Hintcodelo 0 0 CODE 0
 __Lintcodelo 0 0 CODE 0
 __Hrbss 0 0 COMRAM 1
-__end_of_main FFBC 0 CODE 0
+__end_of_main 10000 0 CODE 0
 __Lrbss 0 0 COMRAM 1
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
-end_of_initialization FFA0 0 CODE 0
+end_of_initialization FF58 0 CODE 0
 _OSCCON2 FD2 0 ABS 0
-_SYSTEM_Initialize FFA6 0 CODE 0
+_PORTAbits F80 0 ABS 0
+_SYSTEM_Initialize FF5E 0 CODE 0
 __Hibigdata 0 0 CODE 0
 __Libigdata 0 0 CODE 0
 _OSCTUNE F9B 0 ABS 0
@@ -119,18 +123,18 @@ __Hbank9 0 0 ABS 0
 __Lbank9 0 0 ABS 0
 __Htext1 0 0 ABS 0
 __Ltext1 0 0 ABS 0
-__ptext0 FFB0 0 CODE 0
+__ptext0 FFAE 0 CODE 0
 _INTCON2bits FF1 0 ABS 0
 __Htext2 0 0 ABS 0
 __Ltext2 0 0 ABS 0
-__ptext1 FFA6 0 CODE 0
+__ptext1 FF5E 0 CODE 0
 __Htext3 0 0 ABS 0
 __Ltext3 0 0 ABS 0
-__ptext2 FFD8 0 CODE 0
-__ptext3 FFBC 0 CODE 0
+__ptext2 FF84 0 CODE 0
+__ptext3 FF68 0 CODE 0
 __Hclrtext 0 0 ABS 0
 __Lclrtext 0 0 ABS 0
-__end_of__initialization FFA0 0 CODE 0
+__end_of__initialization FF58 0 CODE 0
 ___rparam_used 1 0 ABS 0
 __Hidata 0 0 CODE 0
 __Lidata 0 0 CODE 0
@@ -146,8 +150,8 @@ __Hspace_0 10000 0 ABS 0
 __HcstackCOMRAM 0 0 ABS 0
 __Lspace_0 0 0 ABS 0
 __LcstackCOMRAM 0 0 ABS 0
-__pcstackCOMRAM 0 0 COMRAM 1
-__Hspace_1 0 0 ABS 0
+__pcstackCOMRAM 1 0 COMRAM 1
+__Hspace_1 3 0 ABS 0
 __Lspace_1 0 0 ABS 0
 __Hsmallconst 0 0 SMALLCONST 0
 __Lsmallconst 0 0 SMALLCONST 0
@@ -157,7 +161,7 @@ __Hnvbit 0 0 COMRAM 1
 __Lnvbit 0 0 COMRAM 1
 __Hcinit 0 0 ABS 0
 __Lcinit 0 0 ABS 0
-__pcinit FFA0 0 CODE 0
+__pcinit FF58 0 CODE 0
 __ramtop 1000 0 RAM 0
 __mediumconst 0 0 MEDIUMCONST 0
 __size_of_main 0 0 ABS 0
@@ -165,16 +169,16 @@ __Hconst 0 0 CONST 0
 __Lconst 0 0 CONST 0
 __Hspace_4 60000E 0 ABS 0
 __Lspace_4 0 0 ABS 0
-_PIN_MANAGER_Initialize FFD8 0 CODE 0
+_PIN_MANAGER_Initialize FF84 0 CODE 0
 __size_of_SYSTEM_Initialize 0 0 ABS 0
 __Hbank10 0 0 ABS 0
 __Lbank10 0 0 ABS 0
 __Hbank11 0 0 ABS 0
 __Lbank11 0 0 ABS 0
-__end_of_OSCILLATOR_Initialize FFD8 0 CODE 0
+__end_of_OSCILLATOR_Initialize FF84 0 CODE 0
 __Hbank12 0 0 ABS 0
 __Lbank12 0 0 ABS 0
-__end_of_SYSTEM_Initialize FFB0 0 CODE 0
+__end_of_SYSTEM_Initialize FF68 0 CODE 0
 __Hbank13 0 0 ABS 0
 __Lbank13 0 0 ABS 0
 __Hbank14 0 0 ABS 0
@@ -184,7 +188,7 @@ __Lbank15 0 0 ABS 0
 ___inthi_sp 0 0 STACK 2
 ___intlo_sp 0 0 STACK 2
 _INTCONbits FF2 0 ABS 0
-_OSCILLATOR_Initialize FFBC 0 CODE 0
+_OSCILLATOR_Initialize FF68 0 CODE 0
 __smallconst 0 0 SMALLCONST 0
 __Hreset_vec 0 0 CODE 0
 __Lreset_vec 0 0 CODE 0
@@ -196,56 +200,58 @@ intlevel0 0 0 CODE 0
 intlevel1 0 0 CODE 0
 intlevel2 0 0 CODE 0
 intlevel3 0 0 CODE 0
-start_initialization FFA0 0 CODE 0
+start_initialization FF58 0 CODE 0
 __size_of_OSCILLATOR_Initialize 0 0 ABS 0
-__initialization FFA0 0 CODE 0
+__initialization FF58 0 CODE 0
 __activetblptr 0 0 ABS 0
 %segments
 reset_vec 0 3 CODE 0 0
-text2 FFD8 FFFF CODE FFD8 0
-text3 FFBC FFD7 CODE FFBC 0
-text0 FFB0 FFBB CODE FFB0 0
-text1 FFA6 FFAF CODE FFA6 0
-cinit FFA0 FFA5 CODE FFA0 0
+cstackCOMRAM 1 2 COMRAM 1 1
+text0 FFAE FFFF CODE FFAE 0
+text2 FF84 FFAD CODE FF84 0
+text3 FF68 FF83 CODE FF68 0
+text1 FF5E FF67 CODE FF5E 0
+cinit FF58 FF5D CODE FF58 0
 %locals
-dist/default/production\02._Knap.X.production.o
-C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f26k22.h
-C:\Users\karst\AppData\Local\Temp\sab0x.s
-1663 FFA0 0 CODE 0
-1665 FFA0 0 CODE 0
-1668 FFA0 0 CODE 0
-1674 FFA0 0 CODE 0
-1676 FFA0 0 CODE 0
-1677 FFA2 0 CODE 0
+dist/default/production\blink_method2.X.production.o
+C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f26k22.h
+C:\Users\karst\AppData\Local\Temp\xcAse20.s
+1668 FF58 0 CODE 0
+1670 FF58 0 CODE 0
+1673 FF58 0 CODE 0
+1679 FF58 0 CODE 0
+1681 FF58 0 CODE 0
+1682 FF5A 0 CODE 0
 main.c
-12 FFB0 0 CODE 0
-15 FFB0 0 CODE 0
-33 FFB4 0 CODE 0
-36 FFB4 0 CODE 0
+4 FFAE 0 CODE 0
+6 FFAE 0 CODE 0
+10 FFB2 0 CODE 0
+12 FFC0 0 CODE 0
+13 FFE0 0 CODE 0
 mcc_generated_files/mcc.c
-50 FFA6 0 CODE 0
-53 FFA6 0 CODE 0
-54 FFAA 0 CODE 0
-55 FFAE 0 CODE 0
+50 FF5E 0 CODE 0
+53 FF5E 0 CODE 0
+54 FF62 0 CODE 0
+55 FF66 0 CODE 0
 mcc_generated_files/pin_manager.c
-55 FFD8 0 CODE 0
-60 FFD8 0 CODE 0
-61 FFDC 0 CODE 0
-62 FFE0 0 CODE 0
-67 FFE4 0 CODE 0
-68 FFE6 0 CODE 0
-69 FFE8 0 CODE 0
-74 FFEA 0 CODE 0
-75 FFF0 0 CODE 0
-76 FFF4 0 CODE 0
-81 FFF8 0 CODE 0
-82 FFFC 0 CODE 0
-91 FFFE 0 CODE 0
+55 FF84 0 CODE 0
+60 FF84 0 CODE 0
+61 FF88 0 CODE 0
+62 FF8C 0 CODE 0
+67 FF90 0 CODE 0
+68 FF94 0 CODE 0
+69 FF96 0 CODE 0
+74 FF98 0 CODE 0
+75 FF9E 0 CODE 0
+76 FFA2 0 CODE 0
+81 FFA6 0 CODE 0
+82 FFAA 0 CODE 0
+91 FFAC 0 CODE 0
 mcc_generated_files/mcc.c
-57 FFBC 0 CODE 0
-60 FFBC 0 CODE 0
-62 FFC0 0 CODE 0
-64 FFC4 0 CODE 0
-68 FFC8 0 CODE 0
-66 FFC8 0 CODE 0
-69 FFD6 0 CODE 0
+57 FF68 0 CODE 0
+60 FF68 0 CODE 0
+62 FF6C 0 CODE 0
+64 FF70 0 CODE 0
+68 FF74 0 CODE 0
+66 FF74 0 CODE 0
+69 FF82 0 CODE 0

@@ -1,14 +1,14 @@
-Microchip MPLAB XC8 Compiler V2.30
+Microchip MPLAB XC8 Compiler V2.32
 
 Linker command line:
 
--W-3 --edf=C:\Program Files\Microchip\xc8\v2.30\pic\dat\en_msgs.txt -cn \
-  -h+dist/default/production\02._Knap.X.production.sym \
-  --cmf=dist/default/production\02._Knap.X.production.cmf -z -Q18F26K22 \
-  -oC:\Users\karst\AppData\Local\Temp\sab0x2 --defsym=__MPLAB_BUILD=1 \
-  -Mdist/default/production/02._Knap.X.production.map -E1 -ver=XC8 Compiler \
-  --acfsm=1493 -ASTACK=060h-0F37h -pstack=STACK -ACODE=00h-0FFFFh \
-  -ACONST=00h-0FFFFh -ASMALLCONST=01000h-010FFhx240 \
+-W-3 --edf=C:\Program Files\Microchip\xc8\v2.32\pic\dat\en_msgs.txt -cn \
+  -h+dist/default/production\01a._Button.production.sym \
+  --cmf=dist/default/production\01a._Button.production.cmf -z -Q18F26K22 \
+  -oC:\Users\karst\AppData\Local\Temp\xcAs12c.4 --defsym=__MPLAB_BUILD=1 \
+  -Mdist/default/production/01a._Button.production.map -E1 \
+  -ver=XC8 Compiler --acfsm=1493 -ASTACK=060h-0F37h -pstack=STACK \
+  -ACODE=00h-0FFFFh -ACONST=00h-0FFFFh -ASMALLCONST=01000h-010FFhx240 \
   -AMEDIUMCONST=01000h-0FFFFh -ACOMRAM=01h-05Fh -AABS1=00h-0F37h \
   -ABIGRAM=01h-0F37h -ARAM=060h-0FFh,0100h-01FFhx14,0F00h-0F37h \
   -ABANK0=060h-0FFh -ABANK1=0100h-01FFh -ABANK2=0200h-02FFh \
@@ -26,8 +26,8 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\karst\AppData\Local\Temp\sab0x8.o \
-  dist/default/production\02._Knap.X.production.o 
+  C:\Users\karst\AppData\Local\Temp\xcAs12c.o \
+  dist/default/production\01a._Button.production.o 
 
 Object code version is 3.11
 
@@ -36,11 +36,11 @@ Machine type is 18F26K22
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\karst\AppData\Local\Temp\sab0x8.o
+C:\Users\karst\AppData\Local\Temp\xcAs12c.o
                 idloc                            200000   200000        8        0       5
                 config                           300000   300000        E        0       4
                 init                                  0        0        4        0       0
-dist/default/production\02._Knap.X.production.o
+dist/default/production\01a._Button.production.o
                 idloc                            200000   200000        8        0       5
                 config                           300000   300000        E        0       4
                 text3                              FFBC     FFBC       1C     7FDE       0
@@ -360,131 +360,12 @@ intlevel0                        text         000000
 intlevel1                        text         000000
 intlevel2                        text         000000
 intlevel3                        text         000000
+isa$std                          (abs)        000001
+isa$xinst                        (abs)        000000
 stackhi                          (abs)        000F37
 stacklo                          (abs)        000060
 start                            init         000000
 start_initialization             cinit        00FFA0
-
-
-FUNCTION INFORMATION:
-
- *************** function _main *****************
- Defined at:
-		line 12 in file "main.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-                  1    wreg      void 
- Registers used:
-		wreg, status,2, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        0 bytes
- Hardware stack levels required when called:    2
- This function calls:
-		_SYSTEM_Initialize
- This function is called by:
-		Startup code after reset
- This function uses a non-reentrant model
-
-
- *************** function _SYSTEM_Initialize *****************
- Defined at:
-		line 50 in file "mcc_generated_files/mcc.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-                  1    wreg      void 
- Registers used:
-		wreg, status,2, cstack
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        0 bytes
- Hardware stack levels used:    1
- Hardware stack levels required when called:    1
- This function calls:
-		_OSCILLATOR_Initialize
-		_PIN_MANAGER_Initialize
- This function is called by:
-		_main
- This function uses a non-reentrant model
-
-
- *************** function _PIN_MANAGER_Initialize *****************
- Defined at:
-		line 55 in file "mcc_generated_files/pin_manager.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-                  1    wreg      void 
- Registers used:
-		wreg, status,2
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        0 bytes
- Hardware stack levels used:    1
- This function calls:
-		Nothing
- This function is called by:
-		_SYSTEM_Initialize
- This function uses a non-reentrant model
-
-
- *************** function _OSCILLATOR_Initialize *****************
- Defined at:
-		line 57 in file "mcc_generated_files/mcc.c"
- Parameters:    Size  Location     Type
-		None
- Auto vars:     Size  Location     Type
-		None
- Return value:  Size  Location     Type
-                  1    wreg      void 
- Registers used:
-		wreg, status,2
- Tracked objects:
-		On entry : 
-		On exit  : 
-		Unchanged: 
- Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
-      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
-Total ram usage:        0 bytes
- Hardware stack levels used:    1
- This function calls:
-		Nothing
- This function is called by:
-		_SYSTEM_Initialize
- This function uses a non-reentrant model
-
 
 
 MODULE INFORMATION

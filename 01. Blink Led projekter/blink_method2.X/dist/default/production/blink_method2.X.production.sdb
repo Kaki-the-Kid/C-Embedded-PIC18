@@ -3,45 +3,45 @@
 [d edition pro ]
 [d chip 18F26K22 ]
 [d frameptr 4065 ]
-"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fleq.c
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\float.c
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftadd.c
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftdiv.c
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftmul.c
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftsub.c
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul32.c
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul64.c
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"50 C:\Users\krs\MPLABXProjects\HullaBulla.X\main.c
+"4 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\01. Blink Led projekter\blink_method2.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"50 C:\Users\krs\MPLABXProjects\HullaBulla.X\mcc_generated_files/mcc.c
+"50 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\01. Blink Led projekter\blink_method2.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "57
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-"55 C:\Users\krs\MPLABXProjects\HullaBulla.X\mcc_generated_files/pin_manager.c
+"55 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\01. Blink Led projekter\blink_method2.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"52 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f26k22.h
+"53 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f26k22.h
 [v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
-"97
+"98
 [v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
-"147
+"148
 [v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
-"2613
+"2614
 [v _WPUB WPUB `VEuc  1 e 1 @3937 ]
 [s S151 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
@@ -52,7 +52,7 @@
 `uc 1 RA6 1 0 :1:6 
 `uc 1 RA7 1 0 :1:7 
 ]
-"6260
+"6261
 [s S160 . 1 `uc 1 AN0 1 0 :1:0 
 `uc 1 AN1 1 0 :1:1 
 `uc 1 AN2 1 0 :1:2 
@@ -112,7 +112,7 @@
 ]
 [u S217 . 1 `S151 1 . 1 0 `S160 1 . 1 0 `S167 1 . 1 0 `S174 1 . 1 0 `S181 1 . 1 0 `S184 1 . 1 0 `S190 1 . 1 0 `S196 1 . 1 0 `S201 1 . 1 0 `S204 1 . 1 0 `S207 1 . 1 0 `S210 1 . 1 0 `S213 1 . 1 0 ]
 [v _PORTAbits PORTAbits `VES217  1 e 1 @3968 ]
-"7244
+"7245
 [v _LATA LATA `VEuc  1 e 1 @3977 ]
 [s S298 . 1 `uc 1 LATA0 1 0 :1:0 
 `uc 1 LATA1 1 0 :1:1 
@@ -123,7 +123,7 @@
 `uc 1 LATA6 1 0 :1:6 
 `uc 1 LATA7 1 0 :1:7 
 ]
-"7271
+"7272
 [s S307 . 1 `uc 1 LA0 1 0 :1:0 
 `uc 1 LA1 1 0 :1:1 
 `uc 1 LA2 1 0 :1:2 
@@ -135,26 +135,26 @@
 ]
 [u S316 . 1 `S298 1 . 1 0 `S307 1 . 1 0 ]
 [v _LATAbits LATAbits `VES316  1 e 1 @3977 ]
-"7356
+"7357
 [v _LATB LATB `VEuc  1 e 1 @3978 ]
-"7468
+"7469
 [v _LATC LATC `VEuc  1 e 1 @3979 ]
-"7580
+"7581
 [v _TRISA TRISA `VEuc  1 e 1 @3986 ]
-"7802
+"7803
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
-"8024
+"8025
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
-"8267
+"8268
 [v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
-"15192
+"15193
 [v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
-"15249
+"15250
 [v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
 [s S48 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 NOT_RBPU 1 0 :1:7 
 ]
-"16084
+"16085
 [s S51 . 1 `uc 1 RBIP 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 TMR0IP 1 0 :1:2 
@@ -178,7 +178,7 @@
 `uc 1 PEIE_GIEL 1 0 :1:6 
 `uc 1 GIE_GIEH 1 0 :1:7 
 ]
-"16161
+"16162
 [s S92 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 INT0F 1 0 :1:1 
 `uc 1 T0IF 1 0 :1:2 
@@ -194,24 +194,24 @@
 ]
 [u S105 . 1 `S83 1 . 1 0 `S92 1 . 1 0 `S101 1 . 1 0 ]
 [v _INTCONbits INTCONbits `VES105  1 e 1 @4082 ]
-"18423
+"18424
 [v _PLLRDY PLLRDY `VEb  1 e 0 @32407 ]
-"50 C:\Users\krs\MPLABXProjects\HullaBulla.X\main.c
+"4 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\01. Blink Led projekter\blink_method2.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"80
+"16
 } 0
-"50 C:\Users\krs\MPLABXProjects\HullaBulla.X\mcc_generated_files/mcc.c
+"50 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\01. Blink Led projekter\blink_method2.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "55
 } 0
-"55 C:\Users\krs\MPLABXProjects\HullaBulla.X\mcc_generated_files/pin_manager.c
+"55 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\01. Blink Led projekter\blink_method2.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "91
 } 0
-"57 C:\Users\krs\MPLABXProjects\HullaBulla.X\mcc_generated_files/mcc.c
+"57 G:\Mit drev\Workspace\MPLABXProjects\C-Embedded-PIC18\01. Blink Led projekter\blink_method2.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "69

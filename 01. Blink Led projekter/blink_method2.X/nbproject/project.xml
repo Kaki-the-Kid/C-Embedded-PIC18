@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>HullaBulla</name>
+            <name>blink_method2</name>
             <creation-uuid>a44934ff-c929-44ac-9ac3-1e3e43e57b47</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>

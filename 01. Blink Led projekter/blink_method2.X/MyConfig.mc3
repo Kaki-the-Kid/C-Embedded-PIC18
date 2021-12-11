@@ -1,4 +1,4 @@
-<config configVersion="1.1" device="PIC18F26K22" coreVersion="4.75">
+<config configVersion="1.1" device="PIC18F26K22" coreVersion="4.85.1">
    <usedClasses class="java.util.HashMap">
       <entry>
          <string>System Module</string>
@@ -594,12 +594,12 @@
          <value>clear</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="RESET" registerAlias="RCON" settingAlias="SBOREN" alias="disabled"/>
-         <value>0</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Interrupt Module" name="preemptiveLow"/>
          <value>enabled</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="RESET" registerAlias="RCON" settingAlias="SBOREN" alias="disabled"/>
+         <value>0</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="Pin Module" name="Custom Name RC7"/>
@@ -2813,7 +2813,7 @@
       </entry>
       <entry>
          <file>mcc_generated_files\pin_manager.c</file>
-         <hash>9690e27a0f2c3724e1acabdb3caa3748a1a1a312799355c327b4f3de2c62a65c</hash>
+         <hash>00446c57a3e25203829f900adc2dc38aacb28ad0b7825a6ae246e2e601f80a6d</hash>
       </entry>
    </generatedFileHashHistoryMap>
    <mc3libFileHashHistoryMap class="java.util.HashMap"/>

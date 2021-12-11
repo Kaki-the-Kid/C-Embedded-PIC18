@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=02. Knap.X
+PROJECTNAME=01a. Button
 
 # Active Configuration
 DEFAULTCONF=default

@@ -6,7 +6,7 @@
   200008h - 2FFFFFh
   30000Eh - 30003Fh
   
- dist/default/production\02._Knap.X.production.hex ranges:
+ dist/default/production\01a._Button.production.hex ranges:
   0h - 3h
   FFA0h - FFFFh
   200000h - 200007h
@@ -23,7 +23,7 @@
   T = Trailing code
   & = Find & replace opcode
   X = Find & delete opcode
-  1 = dist/default/production\02._Knap.X.production.hex
+  1 = dist/default/production\01a._Button.production.hex
 00000000: 1111------------------------------------------------------------
 0000FF80: --------------------------------11111111111111111111111111111111
 0000FFC0: 1111111111111111111111111111111111111111111111111111111111111111

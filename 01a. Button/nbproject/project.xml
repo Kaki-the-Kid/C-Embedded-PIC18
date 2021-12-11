@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>02. Knap</name>
+            <name>01a. Button</name>
             <creation-uuid>37f46a8d-a2c3-4ac0-af76-7cf32be243e2</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
