@@ -31,3 +31,22 @@ The registers within the master and slave act like shift registers shifting one 
 * As each bit has two states, this allows for four different combinations, all of which are incompatible with each other. 
 * For two SPI devices to talk to each other, they need to be set to use the same clock polarity and phase settings.
 
+## SPI Data Transfer Modes
+* These four modes are the combinations of CPOL and CPHA. 
+* Modes 0 and 3 are the most common. 
+* With SPI modes 0 and 3, data is always latched in on the rising edge of SCK and always output on the falling edge of SCK.
+
+![image](https://user-images.githubusercontent.com/44589560/145690981-e0ee697f-b1ba-4172-87b2-9ab7cab98110.png)
+
+## Multiple Slaves
+ If multiple slave devices exist, the master normally generates a separate slave select signal for each slave. - Star connection. 
+
+![image](https://user-images.githubusercontent.com/44589560/145691012-0e2cc3db-6883-4d8d-866c-3320fa354c84.png)
+
+## SPI Bus characteristics 
+* It is up to the master and slave devices to know whether a received byte is meaningful or not. 
+* So a device must discard the received byte in a ''transmit only'' frame or generate a dummy byte for a ''receive only'' frame. 
+* No Acknowledgement 
+* Master doesn't even know if slave is present! 
+* Slaves can be thought of as 10 devices of the master.
+
