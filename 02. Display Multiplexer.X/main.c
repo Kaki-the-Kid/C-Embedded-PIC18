@@ -5,7 +5,7 @@
 //prototypes
 void SetDisplay(uint8_t, bool); //sets the value of a single display
 void UpdateDisplay(); //controls which display to update
-void UpdateTemprature(); //updates the temperature variable
+void UpdateTemperature(); //updates the temperature variable
 void TimerInterrupt(); //the callback function for the timer, controls all other functions that run on the timer
 
 const char * ReadLine(); //read a line from console window
@@ -102,7 +102,7 @@ void TimerInterrupt()
     //call update temperature approximately every second 
     if(updateTempratureCounter == 100)
     {
-        UpdateTemprature();
+        UpdateTemperature();
         updateTempratureCounter = 0;
     }
     else
@@ -150,7 +150,7 @@ void SetDisplay(uint8_t digit, bool firstDigit)
 }
 
 //updates the temperature variable
-void UpdateTemprature()
+void UpdateTemperature()
 {
     uint32_t sum = 0; //part of averaging
     for(uint8_t i = 0; i<100; i++) //loop for averaging 
