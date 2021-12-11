@@ -1,17 +1,17 @@
 /**
-  SPI2 Generated Driver API Header File
+  SPI1 Generated Driver API Header File
 
   @Company
     Microchip Technology Inc.
 
   @File Name
-    spi2.h
+    spi1.h
 
   @Summary
-    This is the generated header file for the SPI2 driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs
+    This is the generated header file for the SPI1 driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs
 
   @Description
-    This header file provides APIs for driver for SPI2.
+    This header file provides APIs for driver for SPI1.
     Generation Information :
         Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.6
         Device            :  PIC18F26K22
@@ -44,8 +44,8 @@
     SOFTWARE.
 */
 
-#ifndef SPI2_H
-#define SPI2_H
+#ifndef SPI1_H
+#define SPI1_H
 
 /**
   Section: Included Files
@@ -57,17 +57,17 @@
 
 /* SPI interfaces */
 typedef enum { 
-    SPI2_DEFAULT
-} spi2_modes_t;
+    SPI1_DEFAULT
+} spi1_modes_t;
 
-void SPI2_Initialize(void);
-bool SPI2_Open(spi2_modes_t spi2UniqueConfiguration);
-void SPI2_Close(void);
-uint8_t SPI2_ExchangeByte(uint8_t data);
-void SPI2_ExchangeBlock(void *block, size_t blockSize);
-void SPI2_WriteBlock(void *block, size_t blockSize);
-void SPI2_ReadBlock(void *block, size_t blockSize);
-void SPI2_WriteByte(uint8_t byte);
-uint8_t SPI2_ReadByte(void);
+void SPI1_Initialize(void);
+bool SPI1_Open(spi1_modes_t spi1UniqueConfiguration);
+void SPI1_Close(void);
+uint8_t SPI1_ExchangeByte(uint8_t data);
+void SPI1_ExchangeBlock(void *block, size_t blockSize);
+void SPI1_WriteBlock(void *block, size_t blockSize);
+void SPI1_ReadBlock(void *block, size_t blockSize);
+void SPI1_WriteByte(uint8_t byte);
+uint8_t SPI1_ReadByte(void);
 
-#endif //SPI2_H
+#endif //SPI1_H

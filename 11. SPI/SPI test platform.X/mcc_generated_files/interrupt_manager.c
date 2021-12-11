@@ -1,26 +1,26 @@
 /**
-  Generated Pin Manager File
+  Generated Interrupt Manager Source File
 
-  Company:
+  @Company:
     Microchip Technology Inc.
 
-  File Name:
-    pin_manager.c
+  @File Name:
+    interrupt_manager.c
 
-  Summary:
-    This is the Pin Manager file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs
+  @Summary:
+    This is the Interrupt Manager file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs
 
-  Description:
-    This header file provides implementations for pin APIs for all pins selected in the GUI.
+  @Description:
+    This header file provides implementations for global interrupt handling.
+    For individual peripheral handlers please see the peripheral driver for
+    all modules selected in the GUI.
     Generation Information :
         Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.6
         Device            :  PIC18F26K22
-        Driver Version    :  2.11
+        Driver Version    :  2.03
     The generated drivers are tested against the following:
-        Compiler          :  XC8 2.30 and above
-        MPLAB             :  MPLAB X 5.40
-
-    Copyright (c) 2013 - 2015 released Microchip Technology Inc.  All rights reserved.
+        Compiler          :  XC8 2.30 and above or later
+        MPLAB 	          :  MPLAB X 5.40
 */
 
 /*
@@ -46,56 +46,31 @@
     SOFTWARE.
 */
 
-#include "pin_manager.h"
+#include "interrupt_manager.h"
+#include "mcc.h"
 
-
-
-
-
-void PIN_MANAGER_Initialize(void)
+void  INTERRUPT_Initialize (void)
 {
-    /**
-    LATx registers
-    */
-    LATA = 0x00;
-    LATB = 0x00;
-    LATC = 0x00;
-
-    /**
-    TRISx registers
-    */
-    TRISA = 0xFF;
-    TRISB = 0xFF;
-    TRISC = 0xD7;
-
-    /**
-    ANSELx registers
-    */
-    ANSELC = 0xC4;
-    ANSELB = 0x3C;
-    ANSELA = 0x2F;
-
-    /**
-    WPUx registers
-    */
-    WPUB = 0x00;
-    INTCON2bits.nRBPU = 1;
-
-
-
-
-
-
-   
-    
-}
-  
-void PIN_MANAGER_IOC(void)
-{   
-	// Clear global Interrupt-On-Change flag
-    INTCONbits.RBIF = 0;
+    // Disable Interrupt Priority Vectors (16CXXX Compatibility Mode)
+    RCONbits.IPEN = 0;
 }
 
+void __interrupt() INTERRUPT_InterruptManager (void)
+{
+    // interrupt handler
+    if(INTCONbits.INT0IE == 1 && INTCONbits.INT0IF == 1)
+    {
+        INT0_ISR();
+    }
+    else if(INTCON3bits.INT1IE == 1 && INTCON3bits.INT1IF == 1)
+    {
+        INT1_ISR();
+    }
+    else
+    {
+        //Unhandled Interrupt
+    }
+}
 /**
  End of File
 */
