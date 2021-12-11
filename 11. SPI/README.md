@@ -50,3 +50,77 @@ The registers within the master and slave act like shift registers shifting one 
 * Master doesn't even know if slave is present! 
 * Slaves can be thought of as 10 devices of the master.
 
+```
+/*Initialise SSP in SPI mode */ 
+void init_SSPl(void) 
+{
+  IODIR0 = IODIR0IPIN_S5Pl_SS; //Enable SSEL pin as GPIO
+  PINSEL0 I= 0x000A8000; //Enable SSPl pins wih SSEL as GPIO
+  //PINSEL0 I= 0x000AA000; //Enable SSPl pins wiht SSEL as SS 
+
+  /* Set DSS data to 8-bit, Frame format SPI, CPOL - 0, CPHA - 0, and SCR 
+     (serial clock Rate (presscaler) is 15 */
+     
+  SSP1CR0 = 0xFF07;
+  SSPlCRl = 0x00000002; //Configure as SPI Master
+  
+  /* SSPCPSR clock prescale register, master mode, minimum divisor 
+     is 0x02 MAX 254 */
+  
+  SSPlCPSR = 15;
+} 
+
+
+/*Send data to the SSP the start address and number of bytes (size of 
+array) must be given*/
+void SSPlSendData(unsigned char *data_add,unsigned char arr_size) 
+{
+  int i; 
+  SSP1_SS(0); //Select slave active low
+  
+  for(i=0;i<arr_size;i++)
+  {
+    while ( (SSPlSR & SSPSR_BSY) ); // Wait until the Busy bit is cleared
+    
+    SSPlDR = *data_add;
+    while ((SSPlSR & SSPSR_BSY) ); // Wait until the Busy bit is cleared
+    
+    data_ add++;
+  }
+  
+  SSPl_SS(l); //de-select slave
+} 
+ 
+
+/*Receive data to the SSP the start address of where the data should be 
+stored, size of the data must be given */
+void SSPlReceiveData(unsigned char *data_add,unsigned char arr_size) 
+{
+  int i;
+  
+  SSP1_SS(0);
+  
+  for(i=0; i<arr_size; i++) 
+  {
+    SSPlDR = 0x00; //dummy write
+    while ( (SSPlSR & SSPSR_BSY) ); // Wait until the Busy bit is cleared
+    
+    *data_add= SSPlDR; 
+    while ( (SSPlSR & SSPSR_BSY) ); // Wait until the Busy bit is cleared
+    
+    data_add++; 
+  }
+  
+  SSPl_SS(l); 
+} 
+
+
+## Example SPI devices 
+* 25LC020A - 2K SPI Bus Serial EE PROM 
+* TC77-5.0 - Thermal Sensor with SPI Interface 
+* MCP3201 - 2.7V 12-Bit AID Converter with SPI Serial Interface 
+* MCP4822 - 12-Bit DAC with Internal VREF and SPI Interface 
+* MCP41010 - Single/Dual Digital Potentiometer with SPI Interface 
+* MCP6S92 - Single-Ended, Rail-to-Rail 1/0, Low-Gain PGA 
+* MCP23S08 - 8-Bit 1/0 Expander with Serial Interface 
+* The PICkit™ Serial SPI Demo Board was designed to easily 
