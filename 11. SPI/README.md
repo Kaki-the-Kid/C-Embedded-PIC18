@@ -113,7 +113,7 @@ void SSPlReceiveData(unsigned char *data_add,unsigned char arr_size)
   
   SSPl_SS(l); 
 } 
-
+```
 
 ## Example SPI devices 
 * 25LC020A - 2K SPI Bus Serial EE PROM 
