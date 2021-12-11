@@ -33,8 +33,10 @@
         <itemPath>mcc_generated_files/ext_int.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
-      <itemPath>spi.h</itemPath>
-      <itemPath>spi.c</itemPath>
+      <itemPath>pic18_spi.h</itemPath>
+      <itemPath>pic18_spi.c</itemPath>
+      <itemPath>lcd.c</itemPath>
+      <itemPath>lcd.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
