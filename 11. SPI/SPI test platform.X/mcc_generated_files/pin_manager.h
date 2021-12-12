@@ -65,30 +65,6 @@
 #define PULL_UP_ENABLED      1
 #define PULL_UP_DISABLED     0
 
-// get/set RB0 procedures
-#define RB0_SetHigh()            do { LATBbits.LATB0 = 1; } while(0)
-#define RB0_SetLow()             do { LATBbits.LATB0 = 0; } while(0)
-#define RB0_Toggle()             do { LATBbits.LATB0 = ~LATBbits.LATB0; } while(0)
-#define RB0_GetValue()              PORTBbits.RB0
-#define RB0_SetDigitalInput()    do { TRISBbits.TRISB0 = 1; } while(0)
-#define RB0_SetDigitalOutput()   do { TRISBbits.TRISB0 = 0; } while(0)
-#define RB0_SetPullup()             do { WPUBbits.WPUB0 = 1; } while(0)
-#define RB0_ResetPullup()           do { WPUBbits.WPUB0 = 0; } while(0)
-#define RB0_SetAnalogMode()         do { ANSELBbits.ANSB0 = 1; } while(0)
-#define RB0_SetDigitalMode()        do { ANSELBbits.ANSB0 = 0; } while(0)
-
-// get/set RB1 procedures
-#define RB1_SetHigh()            do { LATBbits.LATB1 = 1; } while(0)
-#define RB1_SetLow()             do { LATBbits.LATB1 = 0; } while(0)
-#define RB1_Toggle()             do { LATBbits.LATB1 = ~LATBbits.LATB1; } while(0)
-#define RB1_GetValue()              PORTBbits.RB1
-#define RB1_SetDigitalInput()    do { TRISBbits.TRISB1 = 1; } while(0)
-#define RB1_SetDigitalOutput()   do { TRISBbits.TRISB1 = 0; } while(0)
-#define RB1_SetPullup()             do { WPUBbits.WPUB1 = 1; } while(0)
-#define RB1_ResetPullup()           do { WPUBbits.WPUB1 = 0; } while(0)
-#define RB1_SetAnalogMode()         do { ANSELBbits.ANSB1 = 1; } while(0)
-#define RB1_SetDigitalMode()        do { ANSELBbits.ANSB1 = 0; } while(0)
-
 // get/set RC3 procedures
 #define RC3_SetHigh()            do { LATCbits.LATC3 = 1; } while(0)
 #define RC3_SetLow()             do { LATCbits.LATC3 = 0; } while(0)
@@ -118,6 +94,34 @@
 #define RC5_SetDigitalOutput()   do { TRISCbits.TRISC5 = 0; } while(0)
 #define RC5_SetAnalogMode()         do { ANSELCbits.ANSC5 = 1; } while(0)
 #define RC5_SetDigitalMode()        do { ANSELCbits.ANSC5 = 0; } while(0)
+
+// get/set Slave1 aliases
+#define Slave1_TRIS                 TRISCbits.TRISC6
+#define Slave1_LAT                  LATCbits.LATC6
+#define Slave1_PORT                 PORTCbits.RC6
+#define Slave1_ANS                  ANSELCbits.ANSC6
+#define Slave1_SetHigh()            do { LATCbits.LATC6 = 1; } while(0)
+#define Slave1_SetLow()             do { LATCbits.LATC6 = 0; } while(0)
+#define Slave1_Toggle()             do { LATCbits.LATC6 = ~LATCbits.LATC6; } while(0)
+#define Slave1_GetValue()           PORTCbits.RC6
+#define Slave1_SetDigitalInput()    do { TRISCbits.TRISC6 = 1; } while(0)
+#define Slave1_SetDigitalOutput()   do { TRISCbits.TRISC6 = 0; } while(0)
+#define Slave1_SetAnalogMode()      do { ANSELCbits.ANSC6 = 1; } while(0)
+#define Slave1_SetDigitalMode()     do { ANSELCbits.ANSC6 = 0; } while(0)
+
+// get/set Slave2 aliases
+#define Slave2_TRIS                 TRISCbits.TRISC7
+#define Slave2_LAT                  LATCbits.LATC7
+#define Slave2_PORT                 PORTCbits.RC7
+#define Slave2_ANS                  ANSELCbits.ANSC7
+#define Slave2_SetHigh()            do { LATCbits.LATC7 = 1; } while(0)
+#define Slave2_SetLow()             do { LATCbits.LATC7 = 0; } while(0)
+#define Slave2_Toggle()             do { LATCbits.LATC7 = ~LATCbits.LATC7; } while(0)
+#define Slave2_GetValue()           PORTCbits.RC7
+#define Slave2_SetDigitalInput()    do { TRISCbits.TRISC7 = 1; } while(0)
+#define Slave2_SetDigitalOutput()   do { TRISCbits.TRISC7 = 0; } while(0)
+#define Slave2_SetAnalogMode()      do { ANSELCbits.ANSC7 = 1; } while(0)
+#define Slave2_SetDigitalMode()     do { ANSELCbits.ANSC7 = 0; } while(0)
 
 /**
    @Param

@@ -1,4 +1,4 @@
-# 1 "main.c"
+# 1 "mcc_generated_files/mcc.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 288 "<built-in>" 3
@@ -6,10 +6,10 @@
 # 1 "<built-in>" 2
 # 1 "C:/Users/karst/.mchp_packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
-# 1 "main.c" 2
-# 22 "main.c"
-# 1 "./mcc_generated_files/mcc.h" 1
-# 49 "./mcc_generated_files/mcc.h"
+# 1 "mcc_generated_files/mcc.c" 2
+# 47 "mcc_generated_files/mcc.c"
+# 1 "mcc_generated_files/mcc.h" 1
+# 49 "mcc_generated_files/mcc.h"
 # 1 "C:/Users/karst/.mchp_packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\\pic\\include\\xc.h" 1 3
 # 18 "C:/Users/karst/.mchp_packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -9219,21 +9219,21 @@ __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer suppo
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "C:/Users/karst/.mchp_packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\\pic\\include\\xc.h" 2 3
-# 49 "./mcc_generated_files/mcc.h" 2
+# 49 "mcc_generated_files/mcc.h" 2
 
-# 1 "./mcc_generated_files/device_config.h" 1
-# 50 "./mcc_generated_files/mcc.h" 2
+# 1 "mcc_generated_files/device_config.h" 1
+# 50 "mcc_generated_files/mcc.h" 2
 
-# 1 "./mcc_generated_files/pin_manager.h" 1
-# 132 "./mcc_generated_files/pin_manager.h"
+# 1 "mcc_generated_files/pin_manager.h" 1
+# 132 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 144 "./mcc_generated_files/pin_manager.h"
+# 144 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
-# 51 "./mcc_generated_files/mcc.h" 2
+# 51 "mcc_generated_files/mcc.h" 2
 
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdbool.h" 1 3
-# 53 "./mcc_generated_files/mcc.h" 2
+# 53 "mcc_generated_files/mcc.h" 2
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\conio.h" 1 3
 
@@ -9266,15 +9266,15 @@ extern __bit kbhit(void);
 
 extern char * cgets(char *);
 extern void cputs(const char *);
-# 54 "./mcc_generated_files/mcc.h" 2
+# 54 "mcc_generated_files/mcc.h" 2
 
-# 1 "./mcc_generated_files/interrupt_manager.h" 1
-# 110 "./mcc_generated_files/interrupt_manager.h"
+# 1 "mcc_generated_files/interrupt_manager.h" 1
+# 110 "mcc_generated_files/interrupt_manager.h"
 void INTERRUPT_Initialize (void);
-# 55 "./mcc_generated_files/mcc.h" 2
+# 55 "mcc_generated_files/mcc.h" 2
 
-# 1 "./mcc_generated_files/spi1.h" 1
-# 54 "./mcc_generated_files/spi1.h"
+# 1 "mcc_generated_files/spi1.h" 1
+# 54 "mcc_generated_files/spi1.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdio.h" 1 3
 # 24 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\stdio.h" 3
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.32\\pic\\include\\c99\\bits/alltypes.h" 1 3
@@ -9413,7 +9413,7 @@ char *ctermid(char *);
 
 
 char *tempnam(const char *, const char *);
-# 54 "./mcc_generated_files/spi1.h" 2
+# 54 "mcc_generated_files/spi1.h" 2
 
 
 
@@ -9432,54 +9432,60 @@ void SPI1_WriteBlock(void *block, size_t blockSize);
 void SPI1_ReadBlock(void *block, size_t blockSize);
 void SPI1_WriteByte(uint8_t byte);
 uint8_t SPI1_ReadByte(void);
-# 56 "./mcc_generated_files/mcc.h" 2
+# 56 "mcc_generated_files/mcc.h" 2
 
-# 1 "./mcc_generated_files/ext_int.h" 1
-# 406 "./mcc_generated_files/ext_int.h"
+# 1 "mcc_generated_files/ext_int.h" 1
+# 406 "mcc_generated_files/ext_int.h"
 void EXT_INT_Initialize(void);
-# 428 "./mcc_generated_files/ext_int.h"
+# 428 "mcc_generated_files/ext_int.h"
 void INT0_ISR(void);
-# 452 "./mcc_generated_files/ext_int.h"
+# 452 "mcc_generated_files/ext_int.h"
 void INT0_CallBack(void);
-# 475 "./mcc_generated_files/ext_int.h"
+# 475 "mcc_generated_files/ext_int.h"
 void INT0_SetInterruptHandler(void (* InterruptHandler)(void));
-# 499 "./mcc_generated_files/ext_int.h"
+# 499 "mcc_generated_files/ext_int.h"
 extern void (*INT0_InterruptHandler)(void);
-# 523 "./mcc_generated_files/ext_int.h"
+# 523 "mcc_generated_files/ext_int.h"
 void INT0_DefaultInterruptHandler(void);
-# 541 "./mcc_generated_files/ext_int.h"
+# 541 "mcc_generated_files/ext_int.h"
 void INT1_ISR(void);
-# 565 "./mcc_generated_files/ext_int.h"
+# 565 "mcc_generated_files/ext_int.h"
 void INT1_CallBack(void);
-# 588 "./mcc_generated_files/ext_int.h"
+# 588 "mcc_generated_files/ext_int.h"
 void INT1_SetInterruptHandler(void (* InterruptHandler)(void));
-# 612 "./mcc_generated_files/ext_int.h"
+# 612 "mcc_generated_files/ext_int.h"
 extern void (*INT1_InterruptHandler)(void);
-# 636 "./mcc_generated_files/ext_int.h"
+# 636 "mcc_generated_files/ext_int.h"
 void INT1_DefaultInterruptHandler(void);
-# 57 "./mcc_generated_files/mcc.h" 2
-# 72 "./mcc_generated_files/mcc.h"
+# 57 "mcc_generated_files/mcc.h" 2
+# 72 "mcc_generated_files/mcc.h"
 void SYSTEM_Initialize(void);
-# 85 "./mcc_generated_files/mcc.h"
+# 85 "mcc_generated_files/mcc.h"
 void OSCILLATOR_Initialize(void);
-# 22 "main.c" 2
+# 47 "mcc_generated_files/mcc.c" 2
 
 
 
-# 1 "./spi.h" 1
-# 25 "main.c" 2
-
-
-void main(void)
+void SYSTEM_Initialize(void)
 {
-    SYSTEM_Initialize();
 
+    INTERRUPT_Initialize();
+    SPI1_Initialize();
+    PIN_MANAGER_Initialize();
+    OSCILLATOR_Initialize();
+    EXT_INT_Initialize();
+}
 
-    (INTCONbits.GIE = 1);
-    (INTCONbits.PEIE = 1);
+void OSCILLATOR_Initialize(void)
+{
 
-    while (1)
+    OSCCON = 0x70;
+
+    OSCCON2 = 0x04;
+
+    OSCTUNE = 0x40;
+
+    while(PLLRDY == 0)
     {
-
     }
 }

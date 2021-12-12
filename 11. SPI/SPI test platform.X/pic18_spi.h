@@ -10,8 +10,9 @@
 
 
 void spi_init_master();
-void spi_write(char *);
-
+void spi_write(char);
+unsigned spi_ready2read();
+char spi_read();
 
 #endif	/* SPI_H */
 
