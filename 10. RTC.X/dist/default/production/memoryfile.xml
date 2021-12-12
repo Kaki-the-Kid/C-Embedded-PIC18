@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-  <executable name="dist/default/production\i2c_RTC.X.production.hex">
+  <executable name="dist/default/production\10._RTC.X.production.hex">
     <memory name="program">
       <units>bytes</units>
       <length>65536</length>
-      <used>13847</used>
-      <free>51689</free>
+      <used>7943</used>
+      <free>57593</free>
     </memory>
     <memory name="data">
       <units>bytes</units>
       <length>3896</length>
-      <used>741</used>
-      <free>3155</free>
+      <used>616</used>
+      <free>3280</free>
     </memory>
   </executable>
 </project>
